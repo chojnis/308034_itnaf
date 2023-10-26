@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularz</title>
+</head>
+<body>
+    <main>
+        <section id="form">
+            <form action="" method="post">
+                <section id="section-name">
+                    <label class="label-column">
+                        First name
+                        <input type="text" id="firstname" required>
+                    </label>
+                    <label class="label-column">
+                        Last name
+                        <input type="text" id="lastname" required>
+                    </label>
+                </section>
+
+                <section id="section-info">
+                    <label class="label-column">
+                        E-mail
+                        <input type="text" id="email" required>
+                    </label>
+                    <label class="label-column">
+                        Phone
+                        <input type="text" id="phone" required>
+                    </label>
+                    <label class="label-column">
+                        Date of birth
+                        <input type="text" id="birthday" required>
+                    </label>
+                </section>
+
+                <section id="section-gender">
+                    <label class="label-column">
+                        Gender
+                        <input type="text" id="gender">
+                    </label>
+                </section>
+
+                <section id="section-jobs">
+                    <label>
+                        What are you looking for
+                        <fieldset>
+                            <label class="label-row">
+                                Software Engineer
+                                <input type="radio" name="job" value="software" class="job">
+                            </label>
+                            <label class="label-row">
+                                UX Designer
+                                <input type="radio" name="job" value="ux" class="job">
+                            </label>
+                            <label class="label-row">
+                                Analytics Specialist
+                                <input type="radio" name="job" value="analytics" class="job">
+                            </label>
+                            <label class="label-row">
+                                Project Manager
+                                <input type="radio" name="job" value="manager" class="job">
+                            </label>
+                        </fieldset>
+                    </label>
+                </section>
+                    
+                <section id="section-languages">
+                    <label>
+                        Which programming languages do you know?
+                        <fieldset>
+                            <label class="label-row">
+                                Java
+                                <input type="checkbox" name="lang[]" value="java" class="lang">
+                            </label>
+                            <label class="label-row">
+                                Javascript
+                                <input type="checkbox" name="lang[]" value="javascript" class="lang">
+                            </label>
+                            <label class="label-row">
+                                C#
+                                <input type="checkbox" name="lang[]" value="c#" class="lang">
+                            </label>
+                            <label class="label-row">
+                                Kotlin
+                                <input type="checkbox" name="lang[]" value="kotlin" class="lang">
+                            </label>
+                            <label class="label-row">
+                                Python
+                                <input type="checkbox" name="lang[]" value="python" class="lang">
+                            </label>
+                            <label class="label-row">
+                                Scala
+                                <input type="checkbox" name="lang[]" value="scala" class="lang">
+                            </label>
+                        </fieldset>
+                    </label>
+                </section>
+
+                <section id="section-message">
+                    <label class="label-column">
+                        Message
+                        <input type="textarea" id="message">
+                    </label>
+                </section>
+
+                <section id="section-buttons">
+                    <button type="reset" id="reset">Reset</button>
+                    <button type="submit" id="submit">Submit</button>
+                </section>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

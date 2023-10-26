@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+input{
+    margin: 0;
+}
+
+fieldset{
+    border: none;
+    gap: 10px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-row{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
