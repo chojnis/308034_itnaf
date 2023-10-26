@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.hamburger{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.roll-top{
+    height: 70px;
+    width: 90%;
+    border-radius: 50px 50px 15px 15px;
+    background-color: #DDB786;
+    border-bottom: 10px solid #D2A15F;
+}
+
+.cheese{
+    height: 15px;
+    width: 100%;
+    background-color: #FFD602;
+    border-bottom: 4px solid #E4B117;
+}
+
+.tomato{
+    height: 30px;
+    width: 60%;
+    background-color: #FE0000;
+}
+
+.meat{
+    height: 30px;
+    width: 70%;
+    background-color: #CD6434;
+    border-radius: 25px;
+    border-bottom: 4px solid #983302;
+}
+
+.onion{
+    height: 30px;
+    width: 50%;
+    background-color: #81007F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.onion-circle{
+    background-color: #DDA0DC;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.meat-circle-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    width: 35%;
+    background-color: transparent;
+}
+
+.meat-circle-wrapper .meat-circle{
+    height: 100%;
+    width: 100%;
+    background-color: #A52B2A;
+    border-radius: 50%;
+}
+
+.cucumber{
+    height: 35px;
+    width: 50%;
+    background-color: #90F08F;
+    border-bottom: 10px solid #008001;
+    border-radius: 0 0 50px 50px;
+}
+
+.roll-bottom{
+    height: 50px;
+    width: 90%;
+    border-radius: 10px 10px 30px 30px;
+    background-color: #DDB786;
+    border-top: 10px solid #D2A15F;
+}
