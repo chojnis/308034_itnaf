@@ -8,20 +8,23 @@
 </head>
 <body>
     <main>
-        <section id="form">
+        <article id="form">
+            <header>
+                <h2>Employment form</h2>
+            </header>
             <form action="" method="post">
-                <section id="section-name">
-                    <label class="label-column">
-                        First name
+                <section class="form-group">
+                    <div class="form-wrapper">
+                        <label class="label-column">First name</label>
                         <input type="text" id="firstname" required>
-                    </label>
+                    </div>
                     <label class="label-column">
                         Last name
                         <input type="text" id="lastname" required>
                     </label>
                 </section>
 
-                <section id="section-info">
+                <section class="form-group">
                     <label class="label-column">
                         E-mail
                         <input type="text" id="email" required>
@@ -36,14 +39,14 @@
                     </label>
                 </section>
 
-                <section id="section-gender">
+                <section class="form-group">
                     <label class="label-column">
                         Gender
                         <input type="text" id="gender">
                     </label>
                 </section>
 
-                <section id="section-jobs">
+                <section class="form-group">
                     <label>
                         What are you looking for
                         <fieldset>
@@ -67,7 +70,7 @@
                     </label>
                 </section>
                     
-                <section id="section-languages">
+                <section class="form-group">
                     <label>
                         Which programming languages do you know?
                         <fieldset>
@@ -99,19 +102,19 @@
                     </label>
                 </section>
 
-                <section id="section-message">
+                <section class="form-group">
                     <label class="label-column">
                         Message
                         <input type="textarea" id="message">
                     </label>
                 </section>
 
-                <section id="section-buttons">
+                <section class="form-group">
                     <button type="reset" id="reset">Reset</button>
                     <button type="submit" id="submit">Submit</button>
                 </section>
             </form>
-        </section>
+        </article>
     </main>
 </body>
 </html>

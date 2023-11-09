@@ -18,29 +18,7 @@ main{
     align-items: center;
 }
 
-#form{
-    max-width: 800px;
+.from-group{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-form{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.label-column{
-    display: flex;
-    flex-direction: column;
-}
-
-.label-row{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-
 
